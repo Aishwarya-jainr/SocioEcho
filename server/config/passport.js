@@ -1,3 +1,5 @@
+console.log("JWT_SECRET loaded as:", process.env.JWT_SECRET);
+
 require("dotenv").config();
 const User = require("../models/user.model");
 const Token = require("../models/token.model");
