@@ -1,13 +1,4 @@
-/**
- * Project Name: SocialEcho
- * Description: A social networking platform with automated content moderation and context-based authentication system.
- *
- * Author: Neaz Mahmud
- * Email: neaz6160@gmail.com
- * Date: 19th June 2023
- */
-
-require("dotenv").config();
+require('dotenv').config();
 const express = require("express");
 const adminRoutes = require("./routes/admin.route");
 const userRoutes = require("./routes/user.route");
